@@ -141,10 +141,10 @@ function greaterThan(num1, num2) {
 // Then, write and example of using the function.
 
 function interdouce(name) {
+   let name = ("Hello, Name!");
 
-    console.log("hello, name");
+   return name;
 }
-interdouce();
 
 
 
@@ -156,3 +156,13 @@ interdouce();
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib( lib1,lib2,lib3,lib4) {
+    let lib1 = "quick brown";
+    let lib2 = "fox jumps";
+    let lib3 = "over the";
+    let lib4 = "fence";
+    let Imlazy = (lib1,lib2,lib3,lib4);
+    return Imlazy;
+    
+}
