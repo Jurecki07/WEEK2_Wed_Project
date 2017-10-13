@@ -59,12 +59,20 @@ console.log(maxOfThree(121, 17, 34));
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
+function isVowel(char) {
+    if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "y") {
+        return true;
+    }
+    else return false;
+}
 
 
-// Write a function that takes a character (i.e. a string of length 1
+
+console.log(isVowel("g"));
 
 
-//   and returns true if it is a vowel 
+
+
 
 
 
@@ -80,7 +88,7 @@ function sum(num7, num8) {
     return (num7 + num8)
 }
 
-console.log(sum(1, 2))
+console.log(sum(1, 2));
 
 
 // 5.
@@ -91,7 +99,9 @@ function avg(num9, num10, num11) {
     return (num9 + num10 + num11) / 3;
 }
 
-console.log(avg(8, 9, 10))
+console.log(avg(8, 9, 10));
+
+
 
 
 
@@ -99,13 +109,11 @@ console.log(avg(8, 9, 10))
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
-function getLength(string) {
+var integer = 6;
 
 
+console.log("This is a " + integer.length);
 
-
-
-}
 
 
 
@@ -117,7 +125,7 @@ function getLength(string) {
 
 function greaterThan(num1, num2) {
     if (num1 > num2) {
-        return num1
+        return true
         // take 2 numbers return the largest
     } else if (num1 < num2) {
         return num2;
