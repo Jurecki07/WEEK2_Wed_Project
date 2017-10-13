@@ -125,7 +125,7 @@ console.log("This is a " + integer.length);
 
 function greaterThan(num1, num2) {
     if (num1 > num2) {
-        return true
+        return true;
         // take 2 numbers return the largest
     } else if (num1 < num2) {
         return num2;
@@ -133,8 +133,9 @@ function greaterThan(num1, num2) {
 
         return " false"
     }
-    console.log(greaterThan)(num1, num2)
 }
+    console.log(greaterThan(5, 10));
+
 
 
 
@@ -149,10 +150,11 @@ function greaterThan(num1, num2) {
 // Then, write and example of using the function.
 
 function interdouce(name) {
-   let name = ("Hello, Name!");
-
-   return name;
+    return name = ("Hello" + name);
 }
+
+console.log(interdouce("Scotty Doesnt know that Fiona and me ___ every sunday. He thinks shes at church and Scotty doesnt know.. Soctty doesnt know o so dont scotty scotty doesnt know - Matt Damon"));
+
 
 
 
